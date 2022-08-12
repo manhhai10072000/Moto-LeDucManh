@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.product{
+    height: 1500px;
+    display: flex;
+    padding: 0 50px 0 100px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;;
+}
+.table{
+    border: 1px solid black;
+    width: 450px;
+    height: 300px;
+    margin-top: 30px;
+
+}
+th{
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: azure;
+
+}
+td{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.view-product{
+    background-color: white;
+    width: 50%;
+    height: 700px;
+    margin-left: 50px;
+
+}
+input{
+    width: 100%;
+}
+.view-product div{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Blippo, fantasy;
+}
+/* MENU */
+.option{
+    width: 300px;
+    text-align: center;
+    background-color: #54BAB9;
+    height: 1000px;
+}
+.option li{
+    height: 60px;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+.add-product{
+    position: absolute;
+    left: 300px;
+    top:100px;
+    width: 200px;
+    list-style: none;
+    height: 120px;
+    display: none;
+    background-color: #54BAB9;
+}
+.add-product li{
+    height: 60px;
+    margin:0;
+    width: 100%;
+}
+li:hover>.add-product{
+    display: block;
+}
+li:hover{
+    background-color: #AEDBCE;
+}
